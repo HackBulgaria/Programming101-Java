@@ -16,6 +16,7 @@ This is an overview of the topics that are going to be included in the course:
 * Playing git in multiplayer mode - working & collaborating in teams.
 * Figuring out Object Oriented Programming in the Java language
 * Designing & Programming console applications
+* Working with build tools like Maven and Ant.
 * Consuming different APIs and services.
 * Working with relational databases & understanding the relation model.
 * Working with database drivers & ORM
