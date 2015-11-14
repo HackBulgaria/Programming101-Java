@@ -48,6 +48,9 @@ https://github.com/HackBulgaria/Programming101/tree/master/week1/git.md
 
 ## Installing Linux
 
+We suggest using the The Long Term Support (LTS) version: 14.04.03
+http://www.ubuntu.com/download/desktop
+
 Before moving on and installing any Linux, **PLEASE BACKUP EVERYTHING THAT IS IMPORTANT TO YOU**.
 
 Don't leave memories only on the hard drive of your PC / laptop. It will eventually fail and you will eventually lose everything that is not backed up.
@@ -55,5 +58,5 @@ Don't leave memories only on the hard drive of your PC / laptop. It will eventua
 Our suggestion is, use one or more of the following:
 
 * [pcloud](https://www.pcloud.com/)
-* [DropBox(https://www.dropbox.com/)
+* [DropBox](https://www.dropbox.com/)
 * Other similar cloud services
