@@ -4,7 +4,7 @@ Welcome :)
 
 Here are a few things you should probably get done before the start of the Programming 101 - java course:
 
-**1)** Install JDK 8 ( Java SE Development Kit ) from [oracle website](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)- we will work with it
+**1)** Install JDK 8 ( Java SE Development Kit ) from [oracle website](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)- we will work with it. You can follow [this guide](http://askubuntu.com/a/55960).
 
 **2)** Make sure java binaries are registered in PATH
 and that they are **the same version**
@@ -12,13 +12,13 @@ and that they are **the same version**
 ```
 java -version
 
-java version "1.8.0_66"
-Java(TM) SE Runtime Environment (build 1.8.0_66-b17)
-Java HotSpot(TM) 64-Bit Server VM (build 25.66-b17, mixed mode)
+java version "1.8.0_65"
+Java(TM) SE Runtime Environment (build 1.8.0_65-b17)
+Java HotSpot(TM) 64-Bit Server VM (build 25.65-b01, mixed mode)
 ```
 ```
 javac -version
-javac 1.8.0_66
+javac 1.8.0_65
 ```
 
 **3)** Install Eclipse Mars from [Eclipse site]
