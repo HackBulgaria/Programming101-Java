@@ -1,58 +1,37 @@
-##Start Here!##
+### Verify java is working and is in $PATH ###
+```java -version``` 
 
-Welcome :) 
+```javac -version```
 
-Here are a few things you should probably get done before the start of the Programming 101 - java course:
+```javap -version```
 
-**1)** Install JDK 8 ( Java SE Development Kit ) from [oracle website] (http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)- we will work with it
+Friendly advice: These should be the same version, or you might have a bad time :) 
 
-or
-```
-sudo apt-get install default-jre
-sudo apt-get install default-jdk
-```
+### Compiling fun with javac and java###
+- Open a terminal. Navigate to any folder whatsoever. Make a new Empty.java file. Try to compile it with javac. See what happens.
+- Make a class named Program. Try to compile it with javac.
+- Rename the class to Empty. Compile it. 
+- Make a main method. Make it print "Hello world!". Compile it and run it.
+- Make the main method print its arguments (String[] args). Make the for loop as you would make one in C or C++, and use the System.out.println method for printing to the console.
 
-**2)** Make sure java binaries are registered in PATH
-and that they are **the same version**
+### Getting to know what classpath is###
+- Open a terminal, navigate to some folder. Make a new A.java file with a legitimate class A declared in it. 
+- Do the same for a file/class named B.
+- Declare a public method in B. 
+- In class A, make a *main method*
+- Instantiate B in it and call B's public method.
+- Try, compile and run A. Does it run? Why? How does it know about B? What about import statements?
 
-```
-java -version
+- Now move B up one folder to '..'
+- Try compiling and running it.
 
-java version "1.8.0_66"
-Java(TM) SE Runtime Environment (build 1.8.0_66-b17)
-Java HotSpot(TM) 64-Bit Server VM (build 25.66-b17, mixed mode)
-```
-```
-javac -version
-javac 1.8.0_66
-```
+- Add -cp ".." to your javac command and try again.
 
-**3)** Install Eclipse Mars from [Eclipse site]
-(https://eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/mars/1/eclipse-java-mars-1-linux-gtk-x86_64.tar.gz&mirror_id=1190)
+###Bundle them both###
+- jar -c A.class
+- Does this command look familiar to you? : )
 
-or use the [installer](https://www.eclipse.org/downloads/)
+### Disassembly with javap ###
+- Disassemble Empty.class
+- Does this look familiar to you? This is what Eclipse is doing when you open a look up a class file with no source attached.
 
-**4)** Read the [Google style-guide](http://google-styleguide.googlecode.com/svn/trunk/javaguide.html) for Java source code:
-
-We will be using very similiar style guide, but with the following modifications:
-- 4 spaces for identation instead of 2.
-- 120 lines for line-wrapping instead of 80.
-
-**7)** Create yourself a GitHub account!
-If you have never worked with git or GitHub, see the [excellent article](https://github.com/HackBulgaria/Programming101/tree/master/week1/git.md) from
-HackBulgaria's programming 101 course:
-
-## Installing Linux
-
-We suggest using the Ubuntu Long Term Support (LTS) version: [14.04.03]
-(http://www.ubuntu.com/download/desktop)
-
-Before moving on and installing any Linux, **PLEASE BACKUP EVERYTHING THAT IS IMPORTANT TO YOU**.
-
-Don't leave memories only on the hard drive of your PC / laptop. It will eventually fail and you will eventually lose everything that is not backed up.
-
-Our suggestion is, use one or more of the following:
-
-* [pcloud](https://www.pcloud.com/)
-* [DropBox](https://www.dropbox.com/)
-* Other similar cloud services
