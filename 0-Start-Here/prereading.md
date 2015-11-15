@@ -6,12 +6,6 @@ Here are a few things you should probably get done before the start of the Progr
 
 **1)** Install JDK 8 ( Java SE Development Kit ) from [oracle website](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)- we will work with it
 
-or
-```
-sudo apt-get install default-jre
-sudo apt-get install default-jdk
-```
-
 **2)** Make sure java binaries are registered in PATH
 and that they are **the same version**
 
