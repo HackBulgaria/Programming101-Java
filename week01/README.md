@@ -10,7 +10,6 @@ Return whether n is an odd number
 
 ###4. Find the kth minimal element of an array###
 ```int kthMin(int k, int[] array)```
-*There will be no duplicates in the array. If they are duplicates in the test, ignore them (my bad).*
 
 ###5. Find the average(средно аритметично) of the elements of an array###
 ```int getAverage(int[] array);```
@@ -105,13 +104,6 @@ You are given an image *original*. Rescale it to newWidth, newHeight, using near
 `String copyEveryChar(String input, int k)`
 
 `copyEveryChar("tldr", 3) => "tttllldddrrr"`
-Important Note: There is an error in the unit test.
-If you are failing on this line:
-`assertEquals("ttt   www   rrr", problems2.copyEveryChar("t w r", 2));`
-It is because is shoud be "3" instead of "2" as an argument at the end. 
-(My bad).
-
-
 
 ###22. Check for palindrome length around '*' ###
 `int getPalindromeLength(String input)`
@@ -121,8 +113,6 @@ It is because is shoud be "3" instead of "2" as an argument at the end.
 ###23. Count number of (non-overlapping) occurences ###
 `int countOcurrences(String needle, String haystack)`
 `countOcurrences("da", "daaadaadada") => 4`
-
-*Bonus* Only 1 line of code allowed. No loops :)
 
 ###24. Decode an URL ###
 Input 'kitten%20pic.jpg'
@@ -147,7 +137,6 @@ Sum all of the numbers in the String. Ignore the characters.
 See http://en.wikipedia.org/wiki/Anagram
 
 No HashMaps, hashSets, or such stuff allowed : )
-Note: The last unit test is a *faulty* one. Delete it. (My bad).
 
 ###27. Is an anagram of String A a susbstring in B?###
 `boolean hasAnagramOf(A,B)` 
