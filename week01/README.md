@@ -123,8 +123,6 @@ Output 'kitten pic.jpg'
 %2F=>'/'
 `String decodeUrl(String input)`
 
-1 line of code is allowed. 
-
 ###25. Sum all the numbers in a String###
 `int sumOfNumbers(String input)`
 
