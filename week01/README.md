@@ -94,14 +94,14 @@ You are given an image *original*. Rescale it to newWidth, newHeight, using near
 
 `reverseEveryChar("What is this") => tahW si siht`
 
-###18. Is this string a palindrome###
+###19. Is this string a palindrome###
 `boolean isPalindrome(String argument)`
 
-###19. Is this number a palindrome###
+###20. Is this number a palindrome###
 `boolean isPalindrome(int argument)`
 
 
-###18. Copy every character K times ###
+###21. Copy every character K times ###
 `String copyEveryChar(String input, int k)`
 
 `copyEveryChar("tldr", 3) => "tttllldddrrr"`
@@ -113,18 +113,18 @@ It is because is shoud be "3" instead of "2" as an argument at the end.
 
 
 
-###19. Check for palindrome length around '*' ###
+###22. Check for palindrome length around '*' ###
 `int getPalindromeLength(String input)`
 
 `getPalindromeLength("taz*zad") => 2`
 
-###20. Count number of (non-overlapping) occurences ###
+###23. Count number of (non-overlapping) occurences ###
 `int countOcurrences(String needle, String haystack)`
 `countOcurrences("da", "daaadaadada") => 4`
 
 *Bonus* Only 1 line of code allowed. No loops :)
 
-###21. Decode an URL ###
+###24. Decode an URL ###
 Input 'kitten%20pic.jpg'
 Output 'kitten pic.jpg'
 %20=>' '
@@ -135,25 +135,26 @@ Output 'kitten pic.jpg'
 
 1 line of code is allowed. 
 
-###22. Sum all the numbers in a String###
+###25. Sum all the numbers in a String###
 `int sumOfNumbers(String input)`
 
 Sum all of the numbers in the String. Ignore the characters.
 `sumOfNumbers("abc123dd34") => 157`
 `sumOfNumbers("12 99 1) => 112`
 
-###23. Is String A an anagram of String B?###
+###26. Is String A an anagram of String B?###
 `boolean anagram(String A, String B)`
 See http://en.wikipedia.org/wiki/Anagram
 
 No HashMaps, hashSets, or such stuff allowed : )
 Note: The last unit test is a *faulty* one. Delete it. (My bad).
-###24. Is an anagram of String A a susbstring in B?###
+
+###27. Is an anagram of String A a susbstring in B?###
 `boolean hasAnagramOf(A,B)` 
 Return whether an anagram of String A can be found in String B.
 
 
-###25. Convert To Greyscale
+###28. Convert To Greyscale
 
 Implement the following function/method:
 ```
