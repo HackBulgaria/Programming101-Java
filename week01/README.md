@@ -323,15 +323,15 @@ Implement a function, called `is_credit_card_valid(String number)`, which return
 * After the transformation, we find the sum of all digits in the transformed number.
 * The number is valid, if the sum is divisible by 10.
 
-For example: `79927398713` is valid, bacause:
+For example: `79927398715` is valid, bacause:
 
-* When we double and replace all digits at odd position we get: `7 (18 = 2 * 9) 9 (4 = 2 * 2) 7 (6 = 2 * 3) 9 (16 = 2 * 8) 7 (2 = 2 * 1) 3`
-* The sum of all digits of the new number is 70, which is divisible by 10 => the card number is valid.
+* When we double and replace all digits at odd position we get: `7 (18 = 2 * 9) 9 (4 = 2 * 2) 7 (6 = 2 * 3) 9 (16 = 2 * 8) 7 (2 = 2 * 1) 5`
+* The sum of all digits of the new number is 90, which is divisible by 10 => the card number is valid.
 
 More examples:
 
-* `79927398713` is a valid number
-* `79927398715` is invalid number
+* `79927398715` is a valid number
+* `79927398713` is invalid number
 
 ###36. Word from a^nb^n
 
