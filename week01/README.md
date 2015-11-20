@@ -187,7 +187,7 @@ Implement a function, called `countVowels(str)`, which returns the count of all 
 
 __Count uppercase vowels aswell!__
 
-The English vowels are `aeiouy`.
+The English vowels are `aeiouy` and their Cappital versions.
 
 **Examples:**
 
