@@ -241,7 +241,7 @@ Lets see two examples:
 pScore(121) = 1
 pScore(48) = 3
 pScore(198) = 6
-``
+```
 
 ###33. 100 SMS
 
