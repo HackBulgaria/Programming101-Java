@@ -2,6 +2,12 @@
 
 Course materials &amp; problems for HackBulgaria's Programming 101 with Java. Starting November 2015.
 
+## Partners
+
+The course is happening thanks to:
+
+![Axway](partners/Axway.png)
+
 ## Course Program
 
 This is a detailed program about the course, separated in weeks
