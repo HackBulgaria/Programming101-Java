@@ -75,7 +75,7 @@ Okay, now let's remove `A` and all of its subfolders. Leave no trace of your pan
 ## Now back to Java!
 ### 17. Fibonacci number
 
-Implement a function `int fibNumber(int n)`, which takes an integer n and returns a number, which is formed by concatenating the first n Fibonacci numbers.
+Implement a function `long fibNumber(int n)`, which takes an integer n and returns a number, which is formed by concatenating the first n Fibonacci numbers.
 
 Examples:
 
