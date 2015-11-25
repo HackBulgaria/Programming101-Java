@@ -98,8 +98,6 @@ Now, we have to stop and look at this diagram:
 
 ![](http://i.stack.imgur.com/zLTpo.png)
 
-![](http://progit.couchone.com/progit/_design/chacon/figures/18333fig0201-tn.png)
-
 Now, let's check the status with ```git status```
 
 ```
