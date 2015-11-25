@@ -150,7 +150,7 @@ Make a class Car.
 Make subtypes of Car, representing the following brands of cars: Audi, BMW, Volkswagen, Honda and Skoda.
 
 Each subtype should have a method `boolean isEcoFriendly(boolean testing)`, which does the following:
-- For a Volkswagen car, if `testing` is `false`, it should return `false`.
+- For a Volkswagen car, if `testing` is `true`, it should return `true`. Return `false` otherwise.
 - For any other car, return `true`. 
 
 Later, for the Audi type you need to return its mileage, because all the German brand manufacturers require it - how you will do it?
