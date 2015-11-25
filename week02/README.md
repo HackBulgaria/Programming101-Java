@@ -291,7 +291,7 @@ Enter expression:> 9!
 - Add 'power' support: 2^3 = 8, 3^2 = 9, etc. It has the same priority as multiplication!
 Examples:
 ```
-java -jar your Jar.jar:
+java -jar yourJar.jar:
 Hello!
 
 Enter expression:> 3^2 + 2^3
