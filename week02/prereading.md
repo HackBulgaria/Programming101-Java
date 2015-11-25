@@ -1,3 +1,7 @@
+## For Friday
+
+Walk through [this guide](https://github.com/HackBulgaria/Programming101-Java/blob/master/week02/git.md).
+
 ## For Wednesday
 
 On OOP in General
