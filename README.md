@@ -12,13 +12,13 @@ The course is happening thanks to:
 
 This is a detailed program about the course, separated in weeks
 
-### Week 1
+### [Week 1](https://github.com/HackBulgaria/Programming101-Java/blob/master/week01)
 
 * Installing Linux
 * Introducing Java with syntax, types & language constructs
 * Problem solving & debugging using Java
 
-### Week 2
+### [Week 2](https://github.com/HackBulgaria/Programming101-Java/blob/master/week01)
 
 * Introducing shell & basic Linux commands
 * Working with Java command-line tools - java, javac, jar
