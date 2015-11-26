@@ -1,0 +1,9 @@
+- Everything is OOP! Java or not?
+- What is a class? What is an object? What is instance? What is type?
+- Method overloading, method overriding
+- State/behaviour
+- Data Encapsulation, Subtype polymorphism, Liskov Principle
+- Object, equals, hashCode, getClass, toString, wait, notify, notifyAll
+- Constructors, on object construction in java, what happens on new()...
+- public, private, protected, default
+- static
