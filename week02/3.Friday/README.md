@@ -1,4 +1,63 @@
-### 31. Calc the Calculator
+## 31. Some Git fun
+
+Create a new directory and create a new local Git repo there.
+
+Make a new file called `hello` with the following content:
+
+```
+This is line one.
+This is line two.
+This is line three.
+This is line four.
+```
+
+Now commit. You get an error? Did you remember to `add`?
+
+Now create a new branch called `panda` and switch to it.
+
+Change the second line of `hello` with `Uh, I forgot how to count!` and add a fifth line `This is line five.`.
+
+Commit this and switch back to the master branch.
+
+Now change the third line of `hello` with `I am number three.` and remove the fourth line. Commit.
+
+We will now simulate something called a **merge conflict**. A merge conflict happens when we attempt to merge two files when it is not obvious how to merge them (e.g. when the file has been modified from two different branches as in this case).
+
+While on the `master` branch, merge it with the `panda` branch. You will see the error.
+
+In order to fix the merge conflict, we need to use a merge tool. Before that, however, we need to actually install a merge tool - that's a GUI app that lets us see the changes in a file from different branches. We are fans of [meld](http://meldmerge.org/) (install it with `sudo apt-get install meld`).
+
+Now run `git mergetool` and start `meld`. Get familiar with the interface. We want the file to look like this after the merge:
+
+```
+This is line one.
+Uh, I forgot how to count!
+I am number three.
+This is line five.
+```
+### 32. Commit it all!
+
+This is a big one. Go to our repository and note how our directories are structured.
+
+```
+|--week01
+|  |--1.Monday
+|  |--2.Wednesday
+|  |--3.Friday
+|
+|--week02
+   |--1.Monday
+   |--2.Wednesday
+   |--3.Friday
+```
+
+Your task is to create a GitHub repo of your own. Add all of your solutions to your repo and **use the same directory structure**.
+
+__Hint: Instead of manually creating the directories, you can clone our repo and then integrate it with your GitHub repo.__
+
+You will need to push all of your solutions to GitHub from now on. We will sometimes review your code and give you feedback directly through GitHub.
+
+### 32. Calc the Calculator
 Create a friendly interactive calculator in java
 Bundle, execute and test your program as a jar file.
 
