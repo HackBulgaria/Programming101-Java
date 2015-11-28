@@ -1,0 +1,1 @@
+[Generics](https://docs.oracle.com/javase/tutorial/java/generics/) starter pack. Go through the all lesson or at least up to Type Erasure.
