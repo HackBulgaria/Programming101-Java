@@ -6,6 +6,8 @@ Course materials &amp; problems for HackBulgaria's Programming 101 with Java. St
 
 The course is happening thanks to:
 
+![Paysafe](partners/Paysafe.jpg)
+![Proxiad Bulgaria](partners/ProxiadBulgaria.png)
 ![Axway](partners/Axway.png)
 
 ## Course Program
