@@ -51,7 +51,6 @@ This is a detailed program about the course, separated in weeks
 * Third take on Java OOP concepts
   * Implementing multiple interfaces
   * Nested & Anonymous classes.
-  * Static constructors
   * Java OOP quirks
 
 ### Week 7
