@@ -8,8 +8,8 @@ Create an immutable class Point:
 * Create a constructor with 2 arguments - the x and the y coordinate
 * Create a default constructor which initializes the Point with the origin of the coordinate system
 * Create a constructor that makes a copy of a Point
-* Create 2 methods for displaying the coordinates of the point
-* Create a static method that returns the origin of the coordinate system
+* Create 2 methods for displaying the coordinates of the point - `getX()` and `getY()`
+* Create a static method that returns the origin of the coordinate system `Point getOrigin()`
 * Override `toString()` to return the coordinates of the point. Point(x, y) E.g. Point(2,5)
 * Override `equals()`
 * Override `hashCode()`:
