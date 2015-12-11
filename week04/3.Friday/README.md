@@ -70,12 +70,12 @@ Create an immutable class Triangle:
 * Create a constructor with 3 arguments of type Point - the three points of the triangle.
   * if the points are on the same coordinate axis print a message `"Points are on the same axis."`
 * Create a constructor that makes a copy of a Triangle
-* Create 4 methods for displaying the 4 vertices of the rectangle (of type Point). I.e. `getUpperLeft`, `getLowerLeft`, etc.
-* Create 4 methods for displaying the 4 edges of the rectangle (of type LineSegment)
-* Create 2 methods for dispalying the width and height of the rectangle
+* Create 3 methods for displaying the 3 vertices of the triangle (of type Point). I.e. `getUpperLeft`, `getLowerLeft`, etc.
+* Create 3 methods for displaying the 3 edges of the triangle (of type LineSegment)
+* Create 2 methods for dispalying the base and height of the triangle
 * Create a method for displaying the center of the triangle
 * Create methods `getPerimeter()`, `getArea()`
-* Override `toString()`: Triangle[(x,y), (height,width)]
+* Override `toString()`: Triangle[(x,y), (height,base)]
 * Override `equals()`
 * Override `hashCode()`
 
