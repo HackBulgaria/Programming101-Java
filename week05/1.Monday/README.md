@@ -43,3 +43,34 @@ Create an ShopInventory class which contains all products available in an invent
 * The inventory should have a method called Audit which should tell the user how much money will be earned if all products are sold out
 * Implement class order which contains information about a particular order (product's ids that must be bought + their quantity)
 * The Inventory class must implements a method RequestOrder. It should get an order and calculates its amount. If the inventory doesn't contain all the required products then a specific exception must be thrown - NotAvailableInInventoryException.
+
+## Bouncing balls game (a long term task)
+
+Create a class Ball that has the following information:
+
+* Diameter of the ball
+* Position of the center of the ball
+* Color of the ball
+* Direction of movement
+* Speed of movement (constant)
+* Method move() which moves the ball 1 frame in its current direction with its current speed (the move method makes just 1 step)
+* Color, diameter, direction and speed can be changed at any time
+
+Create a class Game that hold a list of balls and moves them inside a specified rectangle.
+
+* Create a constructor of the Game class which takes width and height as arguments - 
+the game rectangle will be (0,0,width,height)
+* Expose the list of balls as a property so that balls can be added later
+* Create a moveAll method which moves all the balls in the game (calls their move method)
+  * If a ball reaches an edge of the game rectangle, it should bounce of it (change its direction)
+  
+Create a class Player which represents a small moving rectangle which moves at the bottom edge of the game area
+* The player has a x-axis position and can either move left or right at a fixed speed
+* The player can also shoot with a laser upwards - the laser represents a single line which starts from the center
+of the top edge of the player and goes up to the top edge of the game area. If it intersects any ball, the ball
+is split into two smaller balls, each with a diameter equal to half the diameter of the hit ball, rounded down to
+the nearest integer. If the new diameter is smaller than a given constant MIN_DIAMETER, then these balls are just removed
+
+Create a user interface where the game is actually playable. Use the bare-bone project from the github repository.
+
+The game should be something similar to this old Nintendo classic [Buster Bros](https://www.youtube.com/watch?v=ulfIohdFv08)
