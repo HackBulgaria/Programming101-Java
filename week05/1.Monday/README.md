@@ -71,6 +71,6 @@ of the top edge of the player and goes up to the top edge of the game area. If i
 is split into two smaller balls, each with a diameter equal to half the diameter of the hit ball, rounded down to
 the nearest integer. If the new diameter is smaller than a given constant MIN_DIAMETER, then these balls are just removed
 
-Create a user interface where the game is actually playable. Use the bare-bone project from the github repository.
+Create a user interface where the game is actually playable.
 
-The game should be something similar to this old Nintendo classic [Buster Bros](https://www.youtube.com/watch?v=ulfIohdFv08)
+The the should be something similar to this old Nintendo classic [Buster Bros](https://www.youtube.com/watch?v=ulfIohdFv08)
