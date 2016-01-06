@@ -35,8 +35,6 @@ create inside the following classes:
 #### IpVersion6Validator
 #### MacAddressValidator
 
-Make a UserInputReciever class
-
 ## Binary Search Tree
 
 Create a BST with a Node as nested class.
