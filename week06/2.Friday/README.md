@@ -14,7 +14,7 @@ When the iterest is greater than 1% the withdraws are forbidden.
 
 It should remember the last 5 operations of the account.
 
-### Make a CLI (Command Line Interface) for operating with the Bank accounts
+### Make a CLI (Command Line Interpreter) for operating with the Bank accounts
 
 It should have the following functions:
 
