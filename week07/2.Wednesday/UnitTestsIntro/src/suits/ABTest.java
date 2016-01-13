@@ -3,14 +3,12 @@ package suits;
 import static org.junit.Assert.*;
 
 import org.junit.Test;
+import org.junit.runner.RunWith;
+import org.junit.runners.Suite;
 import org.junit.runners.Suite.SuiteClasses;
 
-@SuiteClasses ({A.class, B.class})
+@RunWith(Suite.class)
+@SuiteClasses ({ATest.class, BTest.class})
 public class ABTest {
-
-	@Test
-	public void test() {
-		fail("Not yet implemented");
-	}
 
 }
