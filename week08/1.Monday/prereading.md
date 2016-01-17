@@ -4,3 +4,6 @@
 * Static code analysis http://searchwindevelopment.techtarget.com/definition/static-analysis
 * Dynamic code analysis http://istqbexamcertification.com/what-is-dynamic-analysis-tools-in-software-testing/
 * Static vs Dynamic code analysis https://gcn.com/articles/2009/02/09/static-vs-dynamic-code-analysis.aspx
+* Github pull requests https://help.github.com/articles/using-pull-requests/
+* Github Flow https://guides.github.com/introduction/flow/
+* Reviews https://www.lullabot.com/articles/the-peer-review-howto-guide
