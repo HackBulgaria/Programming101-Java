@@ -2,7 +2,7 @@
 
 Your task for today is not about writing code. It is about looking at code & improving it.
 
-Using the knowledge we have from [the prereading](), do the following:
+Using the knowledge we have from [the prereading](../prereading.md), do the following:
 
 1. Split into groups of 2.
 2. Both of you - pick a problem of your choice.
