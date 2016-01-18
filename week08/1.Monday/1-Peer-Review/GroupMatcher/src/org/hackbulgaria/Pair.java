@@ -1,8 +1,5 @@
 package org.hackbulgaria;
 
-/**
- * Created by plamen on 1/18/16.
- */
 public class Pair {
     private final Person mPersonA;
     private final Person mPersonB;

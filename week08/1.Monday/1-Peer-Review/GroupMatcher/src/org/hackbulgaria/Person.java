@@ -1,8 +1,5 @@
 package org.hackbulgaria;
 
-/**
- * Created by plamen on 1/18/16.
- */
 public class Person {
     private final String mFirstName;
     private final String mLastName;

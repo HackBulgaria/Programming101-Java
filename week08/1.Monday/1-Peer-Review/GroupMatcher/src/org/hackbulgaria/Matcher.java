@@ -1,7 +1,5 @@
 package org.hackbulgaria;
 
-import com.sun.xml.internal.ws.policy.privateutil.PolicyUtils;
-
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
@@ -9,9 +7,6 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.*;
 
-/**
- * Created by plamen on 1/18/16.
- */
 public class Matcher {
     private final int mRotations;
     private final Path mPeoplePath;
@@ -52,7 +47,7 @@ public class Matcher {
         return index;
     }
 
-    public void getRotation() throws IOException {
+    public void getRotation() {
         List<Pair> pairs = new ArrayList<>();
         while (mPairedPeople.size() < mPeople.size()) {
             Person personA = mPeople.get(getPersonIndex());
@@ -63,6 +58,16 @@ public class Matcher {
         }
         for (Pair pair : pairs) {
             System.out.println(pair);
+        }
+
+        mPairedPeople = new HashSet<>();
+    }
+
+    public void printRotations() {
+        for (int i = 0; i < mRotations; i++) {
+            System.out.printf("## Rotation %s%n%n", i + 1);
+            getRotation();
+            System.out.println();
         }
     }
 }
