@@ -44,3 +44,5 @@ First start with getting the weather in a concrete location using [OpenWeatherMa
 Second thing is to think for a simple algorithm which can work for weather prediction.
 
 And the third thing (the most important one!!!) is how to design the entire tool (software design).
+
+Recommended way is to do it in groups of three.
