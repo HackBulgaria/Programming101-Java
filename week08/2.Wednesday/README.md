@@ -1,60 +1,46 @@
-### A demonstration of a race condition
-Create a project 'Threads'.
+### 1. Download a file with java
+Using only URL and the stream classes, download this photo: http://d3dsacqprgcsqh.cloudfront.net/photo/aozrdx0_700b.jpg to a location of your choosing
 
-Create a static variable `counter`.
-Create two threads - A and B.
-In their `run()` methods just increment the shared variable 2_000_000 times.
+##### Now accept files from the command line and label your program the 'java wget'. Woohoo!
 
-Start the two threads, join them, and print out `counter`. What happens? Why?
-Print out the time needed.
-
-##### Introduce critical blocks
-Now wrap the incrementing in a synchronized block in each thread. (They should be **synchronized on the same monitor**).
-First, wrap the whole `for` statements in a synchronized blocks.
-
-See the result is now correct, and observe the minor performance penalty.
-
-Now, move the synochronized block `inside` the `for` statements.
-Notice the increased performance penalty.
-Experiment different ways to write it and see what is the behavior.
-
-##### Replace the synchronized blocks with a call to a synchronized method increment()
-
-##### Replace the synchronized stuff with an AtomicInteger. Notice the performance penalty!
-
-##### Replace the Atomic Integer with wait/notify + mutex variable mechanism
-The scenario we want is the following:
-- Thread A obtains the mutex (`wait()`s until the mutex is available)
-- Works (increments the integer)
-- Then calls `notify` on the monitor
-- Which fires the Thread B, which does the same
+### 2. Make a simple website crawler
+Have you grown tiiiiiiired of looking for stuff on websites that simply seems is not in the navigation menu at all?
+You grow tired of that... and suddenly, baaaam! Someone skypes you the link. It was there, how could I have not seen it.
 
 
-### Implement a simple blocking queue.
-A blocking queue is just like a regular queue, with the difference that if someone calls `poll()` and the queue is empty, the call is blocked until somebody adds an element to the queue. After an element is added, the caller (the one who called `poll()`) gets unblocked and the `poll()` call returns.
+Today, we will put an end to that.
 
-### Bonus:
-Introduce classical very common interview scenario *Producer - Consumer problem*. Create several threads (Producers) that only produce `add(E e)` in your queue and several threads (Consumers) that only consume `poll()` from your queue. Your blocking queue should have a max size. When a max size is reached all producers are halted until some object have been consumed.
+Write a simple web crawler, that is receiving a URL as a command line parameter and a "needle" to search for.
+Needle is text, usually a sentence.
 
+What your crawler should do is simple
+- GET the contents of the URL received
+- Check if the contents contain "needle"
+- If they do, output the URL and exit
+- If they don't, **get all the links** from the URL given and repeat for every link.
 
+Hints/tips:
+- **Don't go out of the website's scope** - if a link in `abv.bg` points to google, well, don't follow google, please...
+- **Don't visit the same URL twice**
+- **Use regular expressions** for getting links. If you are unfamiliar with them, use the following method:
+```java
+	private static List<String> getAllLinks(String content) {
+		ArrayList<String> resultList = new ArrayList<>();
+		String regex = "<a.*?href=\"((?!javascript).*?)\".*?>";
+		Pattern pattern = Pattern.compile(regex);
+		Matcher matcher = pattern.matcher(content);
+		while (matcher.find()) {
+			resultList.add(matcher.group(1));
+		}
+		return resultList;
+	}
+```
+- **If you are not comfortable with even using something as ugly as regular expressions, you can do it with regular string matching. It will be harder though :(**
+- Use small websites for testing. For example, http://ebusiness.free.bg is one site you can use. It has very, very few links. (Search for the word 'Револвираща'.)
 
-### Paralel minimal point calculations
+### 3. Create a weather forcasting tool
+First start with getting the weather in a concrete location using [OpenWeatherMap](http://openweathermap.org/current#name) REST service API. (You can use [Jettison library](http://jettison.codehaus.org/) and [Apache HttpClient](https://hc.apache.org/httpcomponents-client-ga/tutorial/html/)).
 
-Create a static method `generatePoints()` which returns a `List<Point>` - `create your Point impl (with maybe different implementations)`
-Implement it, generating a 100 000 points (in java that is written `100_000`) points with random coordinates - ranging from 0 to 10_000.
+Second thing is to think for a simple algorithm which can work for weather prediction.
 
-Now, for each of those points, I'd like you to find it's nearest point. Do this in a method `Map<Point,Point> getNearestPoints(List<Point> generatedPoints)`
-
-It takes a while. By calculations, it should take like lots of seconds to complete (depending on your CPU speed).
-
-Now introduce some multithreading to speed it up.
-Declare and implement a method `doCalculations(List<Point> inPoints, int indexFrom, int indexTo, Map<Point, Point> outMap)`.
-Move calculations logic from `getNearestPoints` to `doCalculations`, but work strictly from `indexFrom`, to `indexTo`.
-
-Now in `getNearestPoints(List<Point> generatedPoints)` method, start two Threads that call `doCalculations`, in their run methods, one from 0 to half of the elements, the other from half of the elements to the last of them.
-
-Measure speedup between the two implementations (See `System.currentTimeMillis()`).
-
-Introduce a third and forth thread. Does your implementation go faster?
-
-Think how to generalize the number of threads and how to implement it.
+And the third thing (the most important one!!!) is how to design the entire tool (software design).
