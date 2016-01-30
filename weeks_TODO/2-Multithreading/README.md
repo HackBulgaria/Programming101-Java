@@ -25,7 +25,9 @@ The entry point is the following method:
 
 The first parameter is the path to the source image. The second parameter is the directory, into which to save the filtered image.
 
-Let's remind ourselves that the Producer-Consumer pattern has three object: *Producer*, *Consumer* and *Shared object*.
+For now we will use only a single filter - the Mask filter. In a future task, we will add more filters.
+
+Let's remind ourselves that the Producer-Consumer pattern has three objects: *Producer*, *Consumer* and *Shared object*. *Producer* and *Consumer* communicate via the *Shared object*.
 
 Here is the workflow:
 - When you call `Instagram.process` from any thread, the Producer puts the source and target paths into the *Shared  object* and waits for notification that *Consumer* is ready.
