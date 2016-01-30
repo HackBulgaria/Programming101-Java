@@ -13,3 +13,39 @@ If your web crawler project is not working, use the one in this github folder in
 
 ### Multiply Matrices
 Use the solution you did in the OOP lecture and add functionality to multiply two matrices - think about OOP decision to implement it - think how to speed it up, then measure how faster it is and also measure if CPU is allocated enough. (Team -- design)
+
+### Instagram Processor
+
+Your task is to create an Instagram image processor. It must handle calling from multiple threads. Use the [Producer-Consumer pattern](https://docs.oracle.com/javase/tutorial/essential/concurrency/guardmeth.html) in order to achieve this. 
+
+For the filtering, use [this excellent image processing library by JH Labs](http://www.jhlabs.com/ip/filters/download.html).
+
+The entry point is the following method:  
+`Instagram.process(String source, String target)`
+
+The first parameter is the path to the source image. The second parameter is the directory, into which to save the filtered image.
+
+Let's remind ourselves that the Producer-Consumer pattern has three object: *Producer*, *Consumer* and *Shared object*.
+
+Here is the workflow:
+- When you call `Instagram.process` from any thread, the Producer puts the source and target paths into the *Shared  object* and waits for notification that *Consumer* is ready.
+- The *Consumer* reads the source path from the *Shared object*, loads the image, performs the filtering and saves it to the target directory. When it finishes, it notifies the *Shared object* it's ready and waits for the next path.
+
+
+Example usage: 
+
+```java
+new Thread(new Runnable() {
+  public void run() {
+    Instagram.process("/home/me/Documents/my_image1.jpg", "/home/me/Documents/output/");
+  }
+}).start();
+
+new Thread(new Runnable() {
+  public void run() {
+    Instagram.process("/home/me/Documents/my_image2.jpg", "/home/me/Documents/output/");
+  }
+}).start();
+```
+
+After calling this, your program must get either the image at `/home/me/Documents/my_image1.jpg` or `/home/me/Documents/my_image2.jpg`, execute Mask filter on it and save it to `/home/me/Documents/output/` Then it must get the other image and do the same. 
