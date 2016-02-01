@@ -58,3 +58,9 @@ If your web crawler project is not working, use the one in this github folder in
 
 ### Multiply Matrices
 Use the solution you did in the OOP lecture and add functionality to multiply two matrices - think about OOP decision to implement it - think how to speed it up, then measure how faster it is and also measure if CPU is allocated enough. (Team -- design)
+
+
+### Implement advanced file search
+Implement search for a text in file contents. (Joker - think how to use producer-consumer pattern to speed that up)
+Your program, by given folder name, should find all the files inside it where a text is occurring and return the file name and in which line the match was found.
+
