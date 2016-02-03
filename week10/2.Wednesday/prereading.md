@@ -11,6 +11,8 @@ Important to read
 * https://docs.oracle.com/javase/8/docs/api/java/util/concurrent/Future.html
 * https://docs.oracle.com/javase/8/docs/api/java/util/concurrent/package-summary.html
 * https://www.securecoding.cert.org/confluence/display/java/THI03-J.+Always+invoke+wait()+and+await()+methods+inside+a+loop
+* https://docs.oracle.com/javase/7/docs/api/java/util/concurrent/CountDownLatch.html
+* https://docs.oracle.com/javase/7/docs/api/java/util/concurrent/CyclicBarrier.html
 
 High Concurrency details and tricks
 * https://docs.oracle.com/javase/tutorial/essential/concurrency/highlevel.html
