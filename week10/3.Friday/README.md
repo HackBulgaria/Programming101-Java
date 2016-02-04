@@ -1,5 +1,9 @@
 Try to implement the following with some different approach and concurrent objects from java.util.concurrent.*.
 
+### Count odd numbers
+In 2 000 000 000 random numbers you should tell as fast as possible how many of them are odd and what's the
+configuration of your program so that it is so fast.
+
 ### Parallel minimal point calculations
 
 Create a static method `generatePoints()` which returns a `List<Point>` - `create your Point impl (with maybe different implementations)`
