@@ -1,5 +1,5 @@
 ### 1. Servlet/HelloWorld
-- Create an Http Servlet. Override the `doGet` method, and write 'HelloWorld!' to the response's outputStream.
+- Create an HttpServlet. Override the `doGet` method, and write 'HelloWorld!' to the response's outputStream.
 - Run your application on Eclipse ('Run as Server').
 - See your own message at 'localhost:8080/YourAppName/YourServletName'
 - Make your servlet respond at 'localhost:8080/YourAppName/' (Edit the @WebServlet annotation path to '/')
