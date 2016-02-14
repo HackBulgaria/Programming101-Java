@@ -3,9 +3,8 @@ There is a bottleneck in web crawling - while waiting for an answer from the ser
 It would be better to make several requests at once.
 
 Try to crawl 9gag.com, for instance, and print every page you've visited. See the speed is not that great.
-Now Introduce parallelisation and speed up the solution. Use an approach similiar to the approach for task #1.
+Now Introduce parallelisation and speed up the solution.
 
-If your web crawler project is not working, use the one in this github folder instead. (It's a Maven project, you will need to fetch all dependencies).
 
 ### 1. Servlet/HelloWorld
 - Create an HttpServlet. Override the `doGet` method, and write 'HelloWorld!' to the response's outputStream.
