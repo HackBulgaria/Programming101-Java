@@ -5,7 +5,7 @@
 ### 2. Make a simple Runnable class that prints a message.
 
 ### 2. Use one of the previously implemented classes and now print something from the main thread.
-Now try using .joint() before printing the message from the main class.
+Now try using .join() before printing the message from the main class.
 
 ### 3. Make Thread that sums two integers provided from the user.
 
