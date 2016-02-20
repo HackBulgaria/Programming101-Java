@@ -7,7 +7,7 @@ http://www.journaldev.com/1854/java-web-application-tutorial-for-beginners
 *If you want to learn more about servlets here is a short book (or an extended tutorial)*
 http://pdf.coreservlets.com/Servlet-Basics.pdf
 
-*And of course, Oracle's documentation on servlets __#tl;dr__*
+*And of course, Oracle's documentation on servlets*
 http://docs.oracle.com/javaee/6/tutorial/doc/bnafe.html
 
 *Eclipse EE*
