@@ -46,7 +46,7 @@ delivery (id) (timestamp) (target coordinates) (product name 1) (quantity) (prod
 
 It will look like this:
 
-supply (id) (timestamp) (product name 1) (quantity) (product name 2) (quantity)
+supply (id) (timestamp) (product name 1) (product weight) (quantity) (product name 2) (product weight) (quantity)
 
 ## How deliveries are made
 
