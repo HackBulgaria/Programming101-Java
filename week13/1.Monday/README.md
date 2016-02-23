@@ -85,3 +85,16 @@ For our first version of the delivery system:
   * 500 WU capacity
 
 * The warehouse is at coordinates [42, 42]
+
+## Drone Delivery System v2
+
+Thanks to the great first version of the Delivery System, our delivery business has expnaded ! Now more companies are using our drones for their delivery requests.
+
+In fact so much that we have to proccess many requests simultaneously (yup, this means concurrently). We will receive this requests as multiple files.
+
+In order to keep up with the new loads we have bought 30 more drones:
+	
+* Our new chinese drones have:
+  * 1 200 BU
+  * 3 BU/min charging rate
+  * 200 WU capacity
