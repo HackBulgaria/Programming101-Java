@@ -79,7 +79,7 @@ The ETA is the time that the last drone has unloaded the goods at the location.
 
 For our first version of the delivery system:
 
-* All drones will have:
+* Our 50 drones will have:
   * 2 000 BU
   * 5 BU/min charging rate
   * 500 WU capacity
@@ -94,7 +94,7 @@ In fact so much that we have to proccess many requests simultaneously (yup, this
 
 In order to keep up with the new loads we have bought 30 more drones:
 	
-* Our new chinese drones have:
+* Our new Chinese drones have:
   * 1 200 BU
   * 3 BU/min charging rate
   * 200 WU capacity
