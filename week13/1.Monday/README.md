@@ -41,6 +41,7 @@ We will support the following requests:
 It will look like this:
 
 delivery &lt;id&gt; &lt;timestamp&gt; &lt;target coordinates&gt; &lt;product name 1&gt; &lt;quantity&gt; &lt;product name 2&gt; &lt;quantity&gt; ...
+
 e.g. "delivery 4 2016-10-25 12:31 420,369 keyboard 5 tomatoes 20"
 
 ### Supply request
@@ -48,6 +49,7 @@ e.g. "delivery 4 2016-10-25 12:31 420,369 keyboard 5 tomatoes 20"
 It will look like this:
 
 supply &lt;id&gt; &lt;timestamp YYYY-MM-DD HH:MM&gt; &lt;product name 1&gt; &lt;product weight&gt; &lt;quantity&gt; &lt;product name 2&gt; &lt;product weight&gt; &lt;quantity&gt;
+
 e.g. "supply 5 2016-10-25 12:32 tomato 5 100 potatoes 6 50 cheese 2 4"
 
 ## How deliveries are made
