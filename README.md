@@ -13,7 +13,7 @@ The course is happening thanks to:
 
 ## Hosting Partners
 
-[![SiteGround](partners/SiteGround.png)](https://www.siteground.com/)
+[![SiteGround](partners/SITEGROUND.png)](https://www.siteground.com/)
 
 ## Course Program
 
