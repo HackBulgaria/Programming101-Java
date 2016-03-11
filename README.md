@@ -11,6 +11,10 @@ The course is happening thanks to:
 [![Axway](partners/Axway.png)](https://www.axway.com/en)
 [![SAP Labs Bulgaria](partners/SAP_Labs_Bulgaria.png)](https://go.sap.com/bulgaria/index.html)
 
+## Hosting Partners
+
+[![SiteGround](partners/SiteGround.png)](https://www.siteground.com/)
+
 ## Course Program
 
 This is a detailed program about the course, separated in weeks
