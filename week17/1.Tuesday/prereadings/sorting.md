@@ -15,6 +15,15 @@ is a description of the steps of the algorithm.
 [Here](https://www.cs.usfca.edu/~galles/visualization/ComparisonSort.html)
 you can find a nice visualization of the steps of the algorithm.
 
+## Insertion sort
+
+[Insertion sort](http://en.wikipedia.org/wiki/Insertion_sort) builds the
+sorted array by constantly adding elements to it in the correct position.
+[Here](http://courses.cs.vt.edu/csonline/Algorithms/Lessons/InsertionSort/index.html)
+is a description of the steps of the algorithm.
+[Here](https://www.cs.usfca.edu/~galles/visualization/ComparisonSort.html)
+you can find a nice visualization of the steps of the algorithm.
+
 ## Merge sort
 
 [Merge sort](http://en.wikipedia.org/wiki/Merge_sort) is a nice way of sorting
